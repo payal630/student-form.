@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Falgu — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar" id="top">
+  <div class="nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">&lt;/&gt;</span>FalguniVersa
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <span class="hero-badge"><span class="pulse-dot"></span>Open to freelance &amp; internships</span>
+
+    <div class="terminal-window">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">whoami.js</span>
+      </div>
+      <div class="terminal-body">
+        <p class="line"><span class="tok-muted">1</span><span class="tok-kw">const</span> <span class="tok-var">developer</span> = {</p>
+        <p class="line indent"><span class="tok-muted">2</span><span class="tok-key">name:</span> <span class="tok-str">"Falgu"</span>,</p>
+        <p class="line indent"><span class="tok-muted">3</span><span class="tok-key">title:</span> <span class="tok-str">"Frontend Developer"</span>,</p>
+        <p class="line indent"><span class="tok-muted">4</span><span class="tok-key">status:</span> <span class="tok-str">"BCA Sem 5 · building full-stack apps"</span></p>
+        <p class="line"><span class="tok-muted">5</span>};</p>
+        <p class="line"><span class="tok-muted">6</span><span class="tok-caret">_</span></p>
+      </div>
+    </div>
+
+    <h1 class="hero-heading">
+      I build things<br> for the <span class="highlight">web</span>.
+    </h1>
+    <p class="hero-sub">
+      Full-stack developer crafting clean, functional web apps —
+      from responsive frontends to Node.js backends.
+    </p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Contact Me</a>
+      <a href="#skills" class="btn-ghost">View Skills</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <p class="eyebrow"><span class="eyebrow-num">01</span>About</p>
+    <h2 class="section-heading">Who I Am</h2>
+    <p class="section-text">
+      I'm a BCA student who started coding from scratch and now builds full
+      web applications end to end. I enjoy turning ideas into working
+      products — designing the frontend, wiring up the backend, and getting
+      everything deployed and usable.
+    </p>
+    <p class="section-text">
+      My projects range from e-commerce apps to safety and career tools,
+      each one teaching me something new about how real software gets built.
+      I like clean interfaces, practical solutions, and shipping things that
+      actually work.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section section-alt" id="skills">
+  <div class="section-inner">
+    <p class="eyebrow"><span class="eyebrow-num">02</span>Skills</p>
+    <h2 class="section-heading">What I Work With</h2>
+    <div class="skills-grid">
+      <div class="skill-tag"><span class="chevron">▹</span>HTML</div>
+      <div class="skill-tag"><span class="chevron">▹</span>CSS</div>
+      <div class="skill-tag"><span class="chevron">▹</span>JavaScript</div>
+      <div class="skill-tag"><span class="chevron">▹</span>Node.js</div>
+      <div class="skill-tag"><span class="chevron">▹</span>Express</div>
+      <div class="skill-tag"><span class="chevron">▹</span>Prisma</div>
+      <div class="skill-tag"><span class="chevron">▹</span>SQL</div>
+      <div class="skill-tag"><span class="chevron">▹</span>Git &amp; GitHub</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section-inner">
+    <p class="eyebrow"><span class="eyebrow-num">03</span>Contact</p>
+    <h2 class="section-heading">Let's Connect</h2>
+    <p class="section-text">
+      Have a project in mind or just want to say hi? Reach out below.
+    </p>
+    <div class="contact-grid">
+      <a href="mailto:falgu@example.com" class="contact-card">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">falgu@example.com</span>
+      </a>
+      <a href="tel:+910000000000" class="contact-card">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+91 XXXXX XXXXX</span>
+      </a>
+      <a href="https://github.com/" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/your-username</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>❤️ Har Error Ek Nayi Learning Hai. 💻 Har Learning Tumhara Future Build Karti Hai. 🚀 Aur Jab Tak Tum Khud Par Believe Nahi Karte... Tab Tak Hum Tum Par Believe Karenge. 
+    🌱 Welcome to FalguniVerse. Where Every Beginner Belongs.</p>
+</footer>
+
+<script>
+  // Smooth scroll for navbar links
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('navLinks').classList.remove('open');
+    });
+  });
+
+  // Mobile menu toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open');
+  });
+
+  // Subtle reveal-on-scroll for section content
+  const revealTargets = document.querySelectorAll('.section-inner, .hero-inner');
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealTargets.forEach(el => revealObserver.observe(el));
+</script>
+
+</body>
+</html>
